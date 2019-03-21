@@ -1,0 +1,43 @@
+h2{
+    font-size: 10px;
+    color: orange; 
+}
+.container {
+        width: 100%;
+        margin: 0 auto; // 0 is top and bottom and auto is left and right, this is shorthand
+}
+//be orange for the body as stated above but at media all if vp is at least 700px, tru or false, if within that range, be the color specified
+//hello
+
+//tablet zone view if at least 700 px, backgrnd is green
+@media all and (min-width:700px){
+    body{
+        background-color:orange;
+    }
+    .container {
+        width: 96%;
+        margin: 0 auto;
+    }
+}
+
+//desktop view if at least 1000px, body background will turn orangered
+@media all and (min-width:1000px){
+    body{
+        background-color: orangered;
+        }
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            color: green;
+        }
+        .showcase {
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+    }
+.trending {
+    width: 100%;
+    margin: 0 auto; // 0 is top and bottom and auto is left and right, this is shorthand
+    background-color: yellow;
+}

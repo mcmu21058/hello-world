@@ -1,0 +1,51 @@
+h2 {
+  font-size: 10px;
+  color: orange;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media all and (min-width: 700px) {
+  body {
+    background-color: green;
+  }
+
+  .container {
+    width: 96%;
+  }
+}
+@media all and (min-width: 1000px) {
+  body {
+    background-color: orangered;
+  }
+
+  .container {
+    width: 1000px;
+  }
+}
+h1 {
+  font-family: Georgia;
+  font-size: 36px;
+  color: magenta;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 36px;
+  color: magenta;
+}
+
+.showcase {
+  background-color: black;
+  color: white;
+}
+
+.primary {
+  background-color: purple;
+  min-height: 500px;
+}
+
+/*# sourceMappingURL=style.css.map */

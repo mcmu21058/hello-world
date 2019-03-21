@@ -1,0 +1,20 @@
+h1{
+    @include buildFont(Arial,60px,limegreen);
+}
+
+h2{
+    @include buildFont(Georgia,10px,rgb(205, 50, 63));
+}
+
+.showcase{
+    background-color: black;
+    color :white;
+}
+.primary{
+    background-color: purple;
+    min-height: 500px;
+    }
+.secondary{
+    background-color: yellow;
+    min-height: 500px;
+    }
